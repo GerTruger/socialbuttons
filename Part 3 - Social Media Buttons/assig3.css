@@ -1,0 +1,170 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: steelblue;
+}
+
+.buttons {
+  width: 75px;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  right: 0%;
+  overflow-x: hidden;
+}
+
+.blog {
+  background-color: #e17b77;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 15%;
+  width: 300px;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.blog i {
+  -webkit-transform: translate(-35px, 5px);
+          transform: translate(-35px, 5px);
+}
+
+.blog:hover {
+  -webkit-animation-name: lucky;
+          animation-name: lucky;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+  -webkit-transition: right 300px 0.5s ease-in;
+  transition: right 300px 0.5s ease-in;
+}
+
+.twitter {
+  background-color: #00aced;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 15%;
+  width: 300px;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.twitter i {
+  -webkit-transform: translate(-35px, 5px);
+          transform: translate(-35px, 5px);
+}
+
+.twitter:hover {
+  -webkit-animation-name: lucky;
+          animation-name: lucky;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+  -webkit-transition: right 300px 0.5s ease-in;
+  transition: right 300px 0.5s ease-in;
+}
+
+.linkedin {
+  background-color: #007bb6;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 15%;
+  width: 300px;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.linkedin i {
+  -webkit-transform: translate(-35px, 5px);
+          transform: translate(-35px, 5px);
+}
+
+.linkedin:hover {
+  -webkit-animation-name: lucky;
+          animation-name: lucky;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+  -webkit-transition: right 300px 0.5s ease-in;
+  transition: right 300px 0.5s ease-in;
+}
+
+.facebook {
+  background-color: #3b5998;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 15%;
+  width: 300px;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.facebook i {
+  -webkit-transform: translate(-35px, 5px);
+          transform: translate(-35px, 5px);
+}
+
+.facebook:hover {
+  -webkit-animation-name: lucky;
+          animation-name: lucky;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+  -webkit-transition: right 300px 0.5s ease-in;
+  transition: right 300px 0.5s ease-in;
+}
+
+.github {
+  background-color: #333;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 15%;
+  width: 300px;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.github i {
+  -webkit-transform: translate(-35px, 5px);
+          transform: translate(-35px, 5px);
+}
+
+.github:hover {
+  -webkit-animation-name: lucky;
+          animation-name: lucky;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  cursor: pointer;
+  -webkit-transition: right 300px 0.5s ease-in;
+  transition: right 300px 0.5s ease-in;
+}
+
+@-webkit-keyframes lucky {
+  from {
+    right: 0%;
+  }
+  to {
+    right: 200px;
+  }
+}
+
+@keyframes lucky {
+  from {
+    right: 0%;
+  }
+  to {
+    right: 200px;
+  }
+}
+/*# sourceMappingURL=assig3.css.map */

@@ -1,0 +1,19 @@
+@mixin social {
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 15%;
+  width: 300px;
+  font-size: 1.2rem;
+  position: relative;
+  i {
+    transform: translate(-35px, 5px);
+  }
+
+  &:hover {
+    animation-name: lucky;
+    animation-duration: 4s;
+    cursor: pointer;
+    transition: right 300px 0.5s ease-in;
+  }
+}
